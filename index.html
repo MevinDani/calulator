@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="input" placeholder="0">
+        </div>
+        <div class="buttons">
+            <button onclick="allClear()" class="clear">C</button>
+            <button onclick="backSpace()" class="backspace">⌫</button>
+            <button onclick="displayData('/')" class="operator">/</button>
+            <button onclick="displayData('*')" class="operator">×</button>
+            <button onclick="displayData(7)" class="number">7</button>
+            <button onclick="displayData(8)" class="number">8</button>
+            <button onclick="displayData(9)" class="number">9</button>
+            <button onclick="displayData('-')" class="operator">−</button>
+            <button onclick="displayData(4)" class="number">4</button>
+            <button onclick="displayData(5)" class="number">5</button>
+            <button onclick="displayData(6)" class="number">6</button>
+            <button onclick="displayData('+')" class="operator">+</button>
+            <button onclick="displayData(1)" class="number">1</button>
+            <button onclick="displayData(2)" class="number">2</button>
+            <button onclick="displayData(3)" class="number">3</button>
+            <button onclick="displayData('.')" value="." class="decimal">.</button>
+            <button onclick="displayData(0)" value="0" class="number">0</button>
+            <button onclick="equalTo()" class="equal">=</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
